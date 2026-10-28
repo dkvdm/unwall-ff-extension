@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+web-ext-artifacts/
+*.xpi
+*.zip
+
+# AMO signing state / secrets
+.amo-upload-uuid
+.env
+.web-extension-id
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*

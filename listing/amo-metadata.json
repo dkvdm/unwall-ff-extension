@@ -1,0 +1,11 @@
+{
+  "categories": ["feeds-news-blogging", "other"],
+  "summary": {
+    "en-US": "One click (or Alt+Shift+U) reopens the article you're reading on unwall.app, right in the same tab. No tracking, no data collection, and it only reads the URL of the tab you click it on."
+  },
+  "tags": ["paywall", "news", "reader", "articles"],
+  "version": {
+    "license": "MIT",
+    "approval_notes": "No build step, minifier or bundler. The submitted files are the source. One background script (background.js) listens for browser.action.onClicked, rewrites the tab URL from https://host/path to https://unwall.app/host/path and calls browser.tabs.update on the same tab. Only permission: activeTab. No remote code, no data collection. To test: open any https article, then click the toolbar button or press Alt+Shift+U."
+  }
+}

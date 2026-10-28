@@ -1,0 +1,17 @@
+{
+  "name": "unwall-ff-extension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Firefox extension that reopens the current page on unwall.app.",
+  "scripts": {
+    "lint": "web-ext lint",
+    "build": "web-ext build",
+    "start": "web-ext run",
+    "sign": "web-ext sign --channel=listed --amo-metadata=listing/amo-metadata.json"
+  },
+  "devDependencies": {
+    "web-ext": "^8.0.0"
+  },
+  "license": "MIT",
+  "author": "dkvdm"
+}

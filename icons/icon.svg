@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9fd0ff"/>
+      <stop offset="1" stop-color="#3f95ff"/>
+    </linearGradient>
+    <linearGradient id="gd" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7ab8f5"/>
+      <stop offset="1" stop-color="#2d7de0"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="48" height="48" rx="5"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <!-- Row 1: y=0, h=14 -->
+    <rect x="0"  y="0"  width="20" height="14" rx="1.5" fill="url(#g)"/>
+    <rect x="23" y="0"  width="25" height="14" rx="1.5" fill="url(#gd)"/>
+    <!-- Row 2: y=17, h=14 -->
+    <rect x="0"  y="17" width="11" height="14" rx="1.5" fill="url(#gd)"/>
+    <rect x="14" y="17" width="20" height="14" rx="1.5" fill="url(#g)"/>
+    <rect x="37" y="17" width="11" height="14" rx="1.5" fill="url(#gd)"/>
+    <!-- Row 3: y=34, h=14 -->
+    <rect x="0"  y="34" width="20" height="14" rx="1.5" fill="url(#g)"/>
+    <rect x="23" y="34" width="25" height="14" rx="1.5" fill="url(#gd)"/>
+  </g>
+</svg>

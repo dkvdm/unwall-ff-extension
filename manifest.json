@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "UnWall.app",
+  "version": "1.0.0",
+  "description": "One click to reopen the current article on unwall.app.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "unwall@flx.me",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "Open on unwall.app (Alt+Shift+U)",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+U"
+      },
+      "description": "Open the current page on unwall.app"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  }
+}
